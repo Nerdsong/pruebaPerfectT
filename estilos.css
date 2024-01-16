@@ -141,7 +141,11 @@ img{
 .seccion-populares{
     display: flex;
     justify-content: space-between;
+    align-content: start;
+    flex-wrap: wrap;
+    gap: 200px;
     margin-top: 60px;
+    margin: 60px
 }
 
 .card-body{
@@ -191,4 +195,52 @@ footer{
 
 .logo-footer{
     width: 10%;
+}
+
+.banner-info{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-around;
+    background-color: #c7c0de;
+    color:white;
+    text-shadow: 0px 0px 4px #7c7c94;
+    padding: 40px;
+}
+
+.banner-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seccion-populares{
+    margin-top: 100px;
+}
+
+.pricing-buying{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.card-text{
+    display: flex;
+    align-items: center;
+    border: 0px;
+    margin: 0px;
+}
+
+.pricing-buying button {
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #ffffff;
+    border-color:  #c7c0de;
+    color: #7c7c94;
+    border-style: ridge;
+    letter-spacing: 2PX;
+    box-shadow: 0px 0px 8px #c7c0de;
 }
